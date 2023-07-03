@@ -7,7 +7,7 @@
 
 
 ## Шпаргалка по Git и GitHub
-pwd -- ( от англ. *print working dir) - покажи в какой папке Я.
+pwd -- ( от англ. *print working dir*) - покажи в какой папке Я. <br>
 ls -- ( от англ. *list directory content*) - покажи файлы и папки в текущей директории.
 ls -a  -- покажи скрытые файлы и папки.
 cd -- ( от англ. *change directory*) - сменить директорию.
