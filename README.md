@@ -8,10 +8,10 @@
 
 ## Шпаргалка по Git и GitHub
 pwd -- ( от англ. *print working dir*) - покажи в какой папке Я. <br>
-ls -- ( от англ. *list directory content*) - покажи файлы и папки в текущей директории.
-ls -a  -- покажи скрытые файлы и папки.
-cd -- ( от англ. *change directory*) - сменить директорию.
-cd  first-project  -- сменить директорию и перейти в папку first-project. Где first-project является названием папки.
+ls -- ( от англ. *list directory content*) - покажи файлы и папки в текущей директории. <br>
+ls -a  -- покажи скрытые файлы и папки. <br>
+cd -- ( от англ. *change directory*) - сменить директорию. <br>
+cd  first-project  -- сменить директорию и перейти в папку first-project. Где first-project является названием папки.<br>
 
 
 ## Пошаговая инструкция Git
