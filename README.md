@@ -104,9 +104,9 @@ $  cat ~/.ssh/id_ed255519.pub -- второй вариант.<br>
 
 
 ### Убедитесь, что репозитарии связаны.
-$ git remote -v (англ. *verbose - подробный*) -- Должны появится две строчки.
-origin  git@github.com:Dolgoulsky/aboutGIT.git (fetch)
-origin  git@github.com:Dolgoulsky/aboutGIT.git (push)
+$ git remote -v (англ. *verbose - подробный*) -- Должны появится две строчки.<br>
+origin  git@github.com:Dolgoulsky/aboutGIT.git (fetch)<br>
+origin  git@github.com:Dolgoulsky/aboutGIT.git (push)<br>
 
 
 
