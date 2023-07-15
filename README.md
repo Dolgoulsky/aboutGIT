@@ -109,6 +109,12 @@ origin  git@github.com:Dolgoulsky/aboutGIT.git (fetch)<br>
 origin  git@github.com:Dolgoulsky/aboutGIT.git (push)<br>
 
 
+### Head - всему голова.
+$ git log -после выхова этой команды, можно увидеть надпись (HEAD->MASTER)
+- Фаил HEAD (Голова) - один из служебных файлов папки .git
+
+
+
 
 
 
