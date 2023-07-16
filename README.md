@@ -151,7 +151,7 @@ HEAD -- это голова.
 ```mermaid
 graph LR;
 untracked -- git add --> staget;
-staged -- ??? --> tracked/commited;
+staged -- git log --> tracked/commited;
 
 ```
 
