@@ -144,6 +144,17 @@ Git видит что фаил существует, но не следит за
 $ git coomit -m "Добавить подсчет суммы"
 
 ### Как сделать mermaid - схему.
+HEAD -- это голова.
+Коммит -- всему голова. 
+<тут пустая строка!>
+
+```mermaid
+graph LR;
+untracked -- git add --> staget;
+staged -- ??? --> tracked/commited;
+
+```
+
 
 
 
