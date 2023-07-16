@@ -151,11 +151,20 @@ HEAD -- это голова.
 ```mermaid
 graph LR;
 untracked -- git add --> staget;
-staged -- git log --> tracked/commited; 
+staged -- git commit -m --> tracked/commited; 
 %% стрелка без текста для примера:
 A --> B;
 
 ```
+
+
+### Как исправить коммит
+- amend (англ. исправить ил дополнить) команда работает только с последним коммитом (HEAD)
+- no-edit. Она сообщет команде commit, что нужно сотавить как было.
+$ git commit --amend --no-edit
+
+-m "Изменить сообщение последнего коммита"
+$ git commit --amend -m "Изменить сообщение последнего коммита"
 
 
 
