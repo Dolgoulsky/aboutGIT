@@ -157,6 +157,17 @@ A --> B;
 
 ```
 
+### How to deploy
+
+```mermaid 
+flowchart TD
+    A[Deploy to prodaction] --> B{Is it Friday};
+    B -- Yes --> C[Do not deploy!];
+    B -- No --> D[Run deploy.sh to deploy!];
+    C ----> E[Enjoy your weekend];
+    D ----> E[Enjoy your weekend];
+
+
 
 ### Как исправить коммит
 - amend (англ. исправить ил дополнить) команда работает только с последним коммитом (HEAD)
