@@ -157,7 +157,7 @@ A --> B;
 
 ```
 
-### How to deploy
+### How to deploy(02)
 
 ```mermaid 
 graph TD;
@@ -168,6 +168,17 @@ C-->D;
 ```
 
 
+### How to deploy (03)
+
+```mermaid
+flowchart TD
+    A[Deploy to prodaction] --> B{Is it Friday};
+    B -- Yes --> C[Do not deploy!];
+    B -- No --> D[Run deploy.sh to deploy!];
+    C ----> E[Enjoy your weekend];
+    D ----> E[Enjoy your weekend];
+```
+
 
 ### Как исправить коммит
 - amend (англ. исправить ил дополнить) команда работает только с последним коммитом (HEAD)
@@ -177,6 +188,14 @@ $ git commit --amend --no-edit
 -m "Изменить сообщение последнего коммита"
 $ git commit --amend -m "Изменить сообщение последнего коммита"
 
+
+### Как откатить назад если все сломалось.
+$ git restore -- staged <file> - переведет фаил из STAGED обратно в MODIFIED или UNTRACKED
+$ git reset -- hard <commit hash> - откатит историю до коммита с хешем <Hash>. Более позние коммиты потеряются. 
+- $ git log --online # ищем хешь для удаления.
+7b972f5
+b576d89 
+$ 
 
 
 
